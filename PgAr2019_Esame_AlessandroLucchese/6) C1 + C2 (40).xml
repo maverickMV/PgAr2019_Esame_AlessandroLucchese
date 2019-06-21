@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<map size="40" title="C1+C2-40">
+    <!--
+    Programma Arnaldo 2019 - Esame
+    File XML di testing per il modulo A2 - nucleo 2
+    Il seguente documento è stato prodotto da Paolo Faustini per lo Student Branch IEEE dell'Università degli Studi di Brescia.
+    -->
+    <cell id="0" name="Partenza" type="iniziale" />
+
+    <cell id="1" name="Vicolo Corto" type="proprieta" >
+        <costs base="150" house="250" hotel="500" />
+        <earnings base="5" house="75" hotel="625" />
+    </cell>
+    
+    <cell id="2" name="Prob1" type="probabilita" >
+        <amount value="250" />
+        <message>
+            <line value="Ereditate da un lontano parente 250 I€€€" />
+        </message>
+    </cell>
+
+    <cell id="3" name="Vicolo Stretto" type="proprieta" >
+        <costs base="150" house="250" hotel="500" />
+        <earnings base="10" house="150" hotel="1125" />
+    </cell>
+    
+    <cell id="4" name="Tassa Patrimoniale" type="imprevisto" >
+        <amount value="500" />
+        <message>
+            <line value="Tassa Patrimoniale: 500 I€€€" />
+        </message>
+    </cell>
+    
+    <cell id="5" name="Stazione Sud" type="stazione" />
+
+    <cell id="6" name="Bastioni Gran Sasso" type="proprieta" >
+        <costs base="250" house="250" hotel="500" />
+        <earnings base="15" house="225" hotel="1375" />
+    </cell>
+
+    <cell id="7" name="Impr1" type="imprevisto" >
+        <amount value="125" />
+        <message>
+            <line value="Pagate il conto del dottore:" />
+            <line value="125 I€€€" />
+        </message>
+    </cell>
+    
+    <cell id="8" name="Viale Monterosa" type="proprieta" >
+        <costs base="250" house="250" hotel="500" />
+        <earnings base="15" house="225" hotel="1375" />
+    </cell>
+
+    <cell id="9" name="Viale Vesuvio" type="proprieta" >
+        <costs base="300" house="250" hotel="500" />
+        <earnings base="20" house="250" hotel="1500" />
+    </cell>
+
+    <cell id="10" name="Prigione/Transito" type="prigione" >
+        <amount value="125" />
+    </cell>
+    
+    <cell id="11" name="Via Accademia" type="proprieta" >
+        <costs base="350" house="500" hotel="1000" />
+        <earnings base="25" house="375" hotel="1875" />
+    </cell>
+    
+    <cell id="12" name="Società Elettrica" type="imprevisto" >
+        <amount value="375" />
+        <message>
+            <line value="Società Elettrica" />
+            <line value="Pagate 375 I€€€" />
+        </message>
+    </cell>
+
+    <cell id="13" name="Corso Ateneo" type="proprieta" >
+        <costs base="350" house="500" hotel="1000" />
+        <earnings base="25" house="375" hotel="1875" />
+    </cell>
+
+    <cell id="14" name="Piazza Università" type="proprieta" >
+        <costs base="400" house="500" hotel="1000" />
+        <earnings base="30" house="450" hotel="2250" />
+    </cell>
+    
+    <cell id="15" name="Stazione Ovest" type="stazione" />
+
+    <cell id="16" name="Via Verdi" type="proprieta" >
+        <costs base="450" house="500" hotel="1000" />
+        <earnings base="35" house="500" hotel="2375" />
+    </cell>
+    
+    <cell id="17" name="Prob2" type="probabilita" >
+        <amount value="250" />
+        <message>
+            <line value="Avete vinto un terno al lotto:" />
+            <line value="ritirate 250 I€€€" />
+        </message>
+    </cell>
+
+    <cell id="18" name="Corso Raffaello" type="proprieta" >
+        <costs base="450" house="500" hotel="1000" />
+        <earnings base="35" house="500" hotel="2375" />
+    </cell>
+
+    <cell id="19" name="Piazza Dante" type="proprieta" >
+        <costs base="500" house="500" hotel="1000" />
+        <earnings base="40" house="550" hotel="2500" />
+    </cell>
+    
+    <cell id="20" name="Posteggio Gratuito" type="imprevisto" >
+        <amount value="1" />
+        <message>
+            <line value="«Oh no - dovremo pagare questo parcheggio!»" />
+            <line value="Non disperate: il posteggio è (quasi) Gratuito:" />
+            <line value="Pagate 1 I€€€ simbolico" />
+        </message>
+    </cell>
+
+    <cell id="21" name="Via Marco Polo" type="proprieta" >
+        <costs base="550" house="750" hotel="1500" />
+        <earnings base="45" house="625" hotel="2625" />
+    </cell>
+    
+    <cell id="22" name="Impr2" type="imprevisto" >
+        <amount value="375" />
+        <message>
+            <line value="Matrimonio in famiglia:" />
+            <line value="spese impreviste 375 I€€€" />
+        </message>
+    </cell>
+
+    <cell id="23" name="Corso Magellano" type="proprieta" >
+        <costs base="550" house="750" hotel="1500" />
+        <earnings base="45" house="625" hotel="2625" />
+    </cell>
+
+    <cell id="24" name="Largo Colombo" type="proprieta" >
+        <costs base="600" house="750" hotel="1500" />
+        <earnings base="50" house="750" hotel="2750" />
+    </cell>
+
+    <cell id="25" name="Stazione Nord" type="stazione" />
+    
+    <cell id="26" name="Viale Costantino" type="proprieta" >
+        <costs base="650" house="750" hotel="1500" />
+        <earnings base="55" house="825" hotel="3000" />
+    </cell>
+
+    <cell id="27" name="Viale Traiano" type="proprieta" >
+        <costs base="650" house="750" hotel="1500" />
+        <earnings base="55" house="825" hotel="3000" />
+    </cell>
+    
+    <cell id="28" name="Società Acqua Potabile" type="imprevisto" >
+        <amount value="375" />
+        <message>
+            <line value="Società Acqua Potabile" />
+            <line value="Pagate 375 I€€€" />
+        </message>
+    </cell>
+
+    <cell id="29" name="Piazza Giulio Cesare" type="proprieta" >
+        <costs base="700" house="750" hotel="1500" />
+        <earnings base="60" house="900" hotel="3125" />
+    </cell>
+    
+    <cell id="30" name="Uscite gratis di Prigione..." type="ticket" />
+
+    <cell id="31" name="Via Roma" type="proprieta" >
+        <costs base="750" house="1000" hotel="2000" />
+        <earnings base="65" house="1000" hotel="3250" />
+    </cell>
+
+    <cell id="32" name="Corso Impero" type="proprieta" >
+        <costs base="750" house="1000" hotel="2000" />
+        <earnings base="65" house="1000" hotel="3250" />
+    </cell>
+    
+    <cell id="33" name="Prob3" type="probabilita" >
+        <amount value="500" />
+        <message>
+            <line value="Siete creditore verso la Banca di 500 I€€€:" />
+            <line value="ritirateli" />
+        </message>
+    </cell>
+
+    <cell id="34" name="Largo Augusto" type="proprieta" >
+        <costs base="800" house="1000" hotel="2000" />
+        <earnings base="70" house="1125" hotel="3500" />
+    </cell>
+    
+    <cell id="35" name="Stazione Ovest" type="stazione" />
+    
+    <cell id="36" name="Impr3" type="imprevisto" >
+        <amount value="2000" />
+        <message>
+            <line value="Avete tutti i vostri stabili da riparare:" />
+            <line value="pagate 2000 I€€€" />
+        </message>
+    </cell>
+
+    <cell id="37" name="Viale dei Giardini" type="proprieta" >
+        <costs base="900" house="1000" hotel="2000" />
+        <earnings base="90" house="1250" hotel="3750" />
+    </cell>
+    
+    <cell id="38" name="Tassa di Lusso" type="imprevisto" >
+        <amount value="250" />
+        <message>
+            <line value="Tassa di Lusso: 250 I€€€" />
+        </message>
+    </cell>
+
+    <cell id="39" name="Parco della Vittoria" type="proprieta" >
+        <costs base="1000" house="1000" hotel="2000" />
+        <earnings base="125" house="1500" hotel="5000" />
+    </cell>
+</map>
